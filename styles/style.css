@@ -12,3 +12,39 @@
     top: 120px;
     bottom: 4462px;
 }
+/* footer-section */
+
+
+footer {
+    
+    padding: 64px 48px 64px 48px;
+    
+    text-align: center;
+}
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../images/handshake.jpg);
+}
+.footer-form p {
+    margin-bottom: 10px;
+}
+.message-box {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+   
+}
+.message-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin-right: 10px;
+    resize: vertical;
+    border-radius: 6px;
+}
+.message-box button {
+    padding: 10px 10px;
+    display: flex;
+    border-radius: 5px;
+}
