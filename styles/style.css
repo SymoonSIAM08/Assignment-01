@@ -48,3 +48,27 @@ footer {
     display: flex;
     border-radius: 5px;
 }
+/* my-current-section */
+.text-center{
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    gap: 25px;
+}
+.html-bgc{
+    color: rgba(255, 76, 30, 0.05);
+}
+.css-bgc{
+    color: rgba(0, 76, 232, 0.05);
+}
+.js-bgc{
+    color: rgba(255, 223, 0, 0.05);
+}
+skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px  5px  0px rgba(0, 0, 0, 0.1);
+}
+
+
