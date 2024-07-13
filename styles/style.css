@@ -49,6 +49,15 @@
   
       
 /* my-current-section */
+.section-bg-2{
+    border-radius: 16px;
+    width: 1310px;
+    height: 400px;
+    margin-left: 130px;
+    margin-bottom: 110px;
+    margin-top: 15px;
+
+}
 .text-center{
     text-align: center;
 }
@@ -78,23 +87,37 @@ skill{
 }
 
 /* my-inspiration-section */
+.section-bg-1{
+    border-radius: 16px;
+    width: 1200px;
+    height: 450px;
+    margin-left: 150px;
+    margin-bottom: 110px;
+    margin-top: 50px;
+}
 .container {
     display: flex;
     justify-content:center;
     align-items: center;
-    height: 60vh;
-    width:1050px 490px ;
-    box-sizing: border-box;
+    height: 61vh;
+    width:1200px ;
+    
     border: 1px solid rgba(13, 19, 33, 0.2);
-    border-radius: 10px;
     align-self: stretch;
     margin-top: 30px;
+    border-radius: 16px;
+    margin-bottom: 35px;
+    
+
+background: url(Jhankar);
+
+
+
 
   }
-  iframe {
-    border: none;
 
-  }
+
+  
   /* footer-section */
 
   .footer-form {
@@ -112,8 +135,8 @@ skill{
     text-align: center;
     color: white; 
     margin-top: 40px;
-    margin-left: 50px;
-    margin-right: 68px;
+    margin-left: 175px;
+    margin-right: 125px;
     margin-bottom: 120px;
     
   }
@@ -173,33 +196,36 @@ skill{
     background-color: #0D132105;
     border-radius: 16px;
     width: 1200px;
-    height: 850px;
+    height: 925px;
     margin-left: 150px;
     margin-bottom: 155px;
     margin-top: 50px;
   }
   .section-title-2{
-    margin-top: 90px;
+    margin-top: 110px;
   }
 
   .inner-div-1{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #FFFFFFFF
-    #FFFFFF00;
+    background-color:rgba(249, 245, 245, 0.851);
     margin-bottom: 48px;
     margin-top: 48px;
+    margin-left: 25px;
+    margin-right: 20px;
 
   }
   .inner-div-2{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #FFFFFFFF
-    #FFFFFF00;
+    background-color: rgb(245, 241, 241);
     margin-bottom: 48px;
     margin-top: 48px;
+    margin-left: 25px;
+    margin-right: 20px;
+
 
 
   }
@@ -207,10 +233,12 @@ skill{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #FFFFFFFF
-    #FFFFFF00;
+    background-color:rgb(251, 246, 246);
     margin-bottom: 48px;
     margin-top: 48px;
+    margin-left: 25px;
+    margin-right: 20px;
+
 
 
   }
