@@ -3,7 +3,7 @@
 /* font-family: "Azeret Mono", monospace; */
 
 
-
+/* hero */
 #hero {
     display: flex;
     justify-content: center;
@@ -83,14 +83,17 @@ skill{
     justify-content:center;
     align-items: center;
     height: 60vh;
-    width:1600px 1400px ;
+    width:1050px 490px ;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 10px;
+    align-self: stretch;
+    margin-top: 30px;
 
   }
   iframe {
     border: none;
+
   }
   /* footer-section */
 
@@ -107,6 +110,7 @@ skill{
     align-items: center;
     text-align: center;
     color: white; 
+    margin-top: auto;
   }
   
   h3, p {
@@ -142,7 +146,102 @@ skill{
   .message-button:hover {
     background-color: #0056b3; 
   }
-  
+
+  /* Why Web Development */
+
+  .section-bg{
+    background-color: #0D132105;
+    border-radius: 16px;
+    width: 1200px;
+    height: 850px;
+    margin-left: 150px;
+    margin-bottom: 155px;
+    margin-top: 50px;
+  }
+  .section-title-2{
+    margin-top: 90px;
+  }
+
+  .inner-div-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFFFF
+    #FFFFFF00;
+    margin-bottom: 48px;
+    margin-top: 48px;
+
+  }
+  .inner-div-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFFFF
+    #FFFFFF00;
+    margin-bottom: 48px;
+    margin-top: 48px;
+
+
+  }
+  .inner-div-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFFFF
+    #FFFFFF00;
+    margin-bottom: 48px;
+    margin-top: 48px;
+
+
+  }
+
+  .image-cnt-1{
+    
+
+width: 259.56px;
+height: 217.01px;
+left: 0.36%;
+right: -0.36%;
+top: 1.74%;
+bottom: -1.74%;
+  }
+  .inner-cnt-2{
+     
+
+width: 250.2px;
+height: 208.85px;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+  }
+  .inner-cnt-3{
+
+
+
+width: 240.4px;
+height: 187.32px;
+left: 8.14%;
+right: -8.14%;
+top: 14.06%;
+bottom: -14.06%;
+
+  }
+  .text{
+    flex: 1;
+
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+.btn{
+    width: 95px;
+    height: 25px;
+}
+
   
 
   
