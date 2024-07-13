@@ -38,11 +38,17 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
   }
   
   .btn-primary-1:hover {
     background-color: #0056b3;
   }
+  
+html {
+    scroll-behavior: smooth;
+}
+
   
   
   
