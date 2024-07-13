@@ -4,18 +4,49 @@
 
 
 
-#hero{
-    background-image:url(../images/Hero-bg.png);
-
-    width: 100%;
-    height: 100%;
-    left: 0;
-    right: 0;
-    top: 120px;
-    bottom: 3000px;
-    
-    
-}
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    text-align: center;
+    background-image: url(../images/Hero-bg.png);
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  h2, p {
+    margin: 10px 0;
+  }
+  
+  .btn-primary-1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #0D1321;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary-1:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
+  
       
 /* my-current-section */
 .text-center{
@@ -87,7 +118,7 @@ skill{
     background: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
     justify-content: space-between;
