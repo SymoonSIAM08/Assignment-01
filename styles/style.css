@@ -133,24 +133,39 @@ skill{
     justify-content: center;
     width: 60%; 
     max-width: 400px; 
+    margin-left: 87px;
   }
   
   .message-box p {
     margin: 0; 
   }
   
-  .message-button {
-    margin-left: 20px; 
-    padding: 10px 20px;
-    border: none;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+
   
   .message-button:hover {
     background-color: #0056b3; 
   }
+  .btn-primary{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #FFFFFF;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  
+
+  }
+  .ftr{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    background-color: #0D132108;
+  }
+
 
   /* Why Web Development */
 
